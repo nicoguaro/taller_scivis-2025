@@ -22,7 +22,7 @@ try:
     assert sys.version_info >= (3,0)
     import importlib.util
 except AssertionError:
-    warn('This tutorial is written for Python 3.  Legacy Python is not explicitly supported.')
+    warn('Este taller está diseñado para Python 3. Python 2 no es compatible explícitamente.')
     onpy2 = True
 
 
@@ -35,7 +35,7 @@ def check_versions():
     mpl = importlib.import_module('matplotlib')
     mpl_version = tuple_version(mpl.__version__)
     if mpl_version < (2, 0, 0):
-        print('Please update matplotlib to version 2.0.0 or higher')
+        print('Actualice matplotlib a la versión 2.0.0 o superior')
         version_trouble=True
 
     return version_trouble
@@ -58,17 +58,17 @@ def main():
                 missing_modules.append(mod)
 
     if missing_modules:
-        print('The following modules are required but not installed:')
+        print('Los siguientes módulos son necesarios pero no están instalados:')
         print('    {}'.format(', '.join(missing_modules)))
-        print('\nYou can install them using conda by running:')
+        print('\nPuede instalarlos usando conda ejecutando:')
         print('\n    conda install {}'.format(' '.join(missing_modules)))
-        print('\nOr you can install them using pip by running:')
+        print('\nO puede instalarlos usando pip ejecutando:')
         print('\n    pip install {}'.format(' '.join(missing_modules)))
     else:
         if check_versions():
-            print('All packages are installed but at least one needs updating')
+            print('Todos los paquetes están instalados pero al menos uno necesita actualizarse')
         else:
-            print('Everything looks good!')
+            print('¡Todo se ve bien!')
 
 
 if __name__ == '__main__':
