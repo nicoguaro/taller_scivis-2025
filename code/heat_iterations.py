@@ -101,7 +101,7 @@ scene.scene.camera.clipping_range = [7, 22]
 scene.scene.camera.focal_point = [0, 0, 1]
 
 #%% Animation
-@mlab.animate(delay=5)
+@mlab.animate(delay=10)
 def anim():
     for cont in range(nframes):
         data_gen(cont)

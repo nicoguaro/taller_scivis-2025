@@ -21,13 +21,13 @@ ejemplo proporcionado en
 
 **Contenido**
 
- 1. [Instalación](##instrucción-de-instalación)
- 2. [Instalación opcional](##instalación-opcional)
- 3. [Verificando la installación](##verificando-la-instlación)
- 4. [Licencia](##licencia)
+ 1. [Instalación](#instrucciones-de-instalación)
+ 2. [Instalación opcional](#instalación-opcional)
+ 3. [Verificando la installación](#verificando-la-instalación)
+ 4. [Licencia](#licencia)
 
 
-## Instrucción de instalación
+## Instrucciones de instalación
 
 Recomendamos usar ``conda`` para instalar los paquetes necesarios para este
 taller. Se requieren dependencias ajenas a Python, lo que hace que la
@@ -41,11 +41,10 @@ repositorio usando
 conda env create -f environment.yml
 ```
 
-
-Esto creará un entorno conda llamado `scivis-2025` con todos los paquetes
+Esto creará un ambiente de conda llamado `scivis-2025` con todos los paquetes
 necesarios.
 
-Puedes activar el entorno con
+Puedes activar el ambiente con
 
 ```console
 conda activate scivis-2025
