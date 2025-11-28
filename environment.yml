@@ -1,6 +1,7 @@
 name: scivis-2025
 channels:
   - conda-forge
+  - menpo
 dependencies:
   - python
   - numpy
@@ -10,3 +11,7 @@ dependencies:
   - jupyterlab
   - mayavi
   - ipyvolume
+  - ipympl
+  - ipywidgets
+  - ipyevents
+  - menpo::osmesa
