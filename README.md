@@ -1,5 +1,7 @@
 # Introducción a la Visualización Científica con Python
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicoguaro/taller_scivis-2025/HEAD)
+
 Este es el repositorio del taller de visualización científica para los
 estudiantes del grupo de investigación en Aplicaciones Matemáticas en Ciencia
 e Ingeniería de la Universidad EAFIT de 2025.
