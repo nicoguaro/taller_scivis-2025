@@ -12,6 +12,6 @@ dependencies:
   - mayavi
   - ipyvolume
   - ipympl
-  - ipywidgets
-  - ipyevents
-  - menpo::osmesa
+  - trame
+  - pip:
+    - pyvista[jupyter]
