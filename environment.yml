@@ -1,0 +1,12 @@
+name: scivis-2025
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
+  - pyvista
+  - jupyterlab
+  - mayavi
+  - ipyvolume
